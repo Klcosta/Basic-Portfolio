@@ -75,7 +75,8 @@
 }
 
 body {
-    background-image: url(/Users/keith/upenn/homework/Basic-Portfolio/assets/images/crossline-lines.png)
+    background-image: url(/Users/keith/upenn/homework/Basic-Portfolio/assets/images/crossline-lines.png);
+    height: 100%;
 }
 
 p {
@@ -84,7 +85,7 @@ p {
     padding: 15px;
  }
 
- h2 {
+h2 {
     font-family: 'Georgia', 'Times New Roman', Times, serif;
     color: #4aaaa5;
     padding:10px;
@@ -111,4 +112,67 @@ li{
 
 table{
     margin: auto;
+}
+
+label{
+    font-family: 'Helvetica Neue';
+    color: #777777;
+    padding-left: 0 px;
+}
+
+#email{
+    width: 100%;
+    height: 25px;
+    padding: 10px;
+    margin-top: 2px;
+    margin-bottom: 12px;
+}
+
+#message{
+    width: 100%;
+    height: 200px;
+    margin-top: 2px;
+    margin-bottom: 12px;
+}
+
+#name{
+    width: 100%;
+    height: 25px;
+    padding: 10px;
+    margin-top: 2px;
+    margin-bottom: 12px;
+}
+
+form{
+    width: 860px;
+    margin: auto;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    right: 0px;
+    left: 0px;
+    margin-top:40px;
+}
+
+.footer1{
+    width: 100%;
+    background-color: #4aaaa5;
+    height: 5px;
+    margin-top:10px;
+}
+
+.footer2{
+    width:100%;
+    background-color: #777777;
+    height: 45px;
+}
+
+.cr{
+    font-family: 'Helvetica Neue';
+    color: white;
+    padding: 15px;
+    text-align: center;
 }
